@@ -1,0 +1,41 @@
+.my__navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 700px) {
+    .my__navbar-title{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+
+        overflow: visible;
+        position: relative;
+        font-family: "Poppins", ui-monospace, monospace;
+        line-height: 40px;
+        font-size: 7vmin;
+        color:black;
+        background-color: #FFFFFF;
+        box-shadow: 0px 5px 15px 0px #000000;
+        width: 80rem;
+        height: 6rem;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    h3{
+        text-align: center;
+    }
+
+}
+
+
+.my__navbar-images-search{
+    display: none;
+}
+.my__navbar-images-profile{
+    display: none;
+}
+
+

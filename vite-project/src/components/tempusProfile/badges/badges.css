@@ -1,0 +1,26 @@
+
+.badges{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 700px) {
+    .badges__badge{
+        overflow: visible;
+        position: relative;
+        font-family: "Poppins", ui-monospace, monospace;
+        line-height: 40px;
+        font-size: 7vmin;
+        color:black;
+        text-align: center;
+        background-color: #FFFFFF;
+        box-shadow: 0px 5px 15px 0px #000000;
+        width: 50rem;
+        height: 30rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+        border-radius: 53px;
+    }
+}
