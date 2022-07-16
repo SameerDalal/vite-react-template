@@ -11,7 +11,9 @@ import TempusHome from './components/tempusHome/TempusHome';
 const App = () => {
   return (
     <div className="App">
+      <Navbar />
       <TempusHome />
+      <Footer />
     </div>
   );
 };
