@@ -16,3 +16,6 @@ root.render(
   </StrictMode>
 );
 
+// TO START THE APP
+// $ cd vite-project
+// $ npm run dev
