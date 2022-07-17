@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <div className = "my__footer">
       <div className="my__footer-logos" >
-        <a href=""> <img src={home} alt="home" /> </a>
-        <a href=""> <img src={searchSmall} alt="searchSmall" /> </a>
-        <a href=""> <img src={profile} alt="profile"/> </a>
+        <a href="http://127.0.0.1:5173/"> <img src={home} alt="home" /> </a>
+        <a href="http://127.0.0.1:5173/search"> <img src={searchSmall} alt="searchSmall" /> </a>
+        <a href="http://127.0.0.1:5173/profile"> <img src={profile} alt="profile"/> </a>
       </div>
     </div>
   )

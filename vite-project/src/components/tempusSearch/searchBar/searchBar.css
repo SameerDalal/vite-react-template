@@ -13,6 +13,7 @@
         height: 6rem;
         border-radius: 20px;
         margin-top: 2rem;
+        margin-bottom: 30rem;
       }
       
       input {
@@ -24,6 +25,8 @@
         color: black;
         font-size: 1.5rem;
       }
+
+
 
 }
   

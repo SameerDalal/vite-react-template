@@ -7,6 +7,7 @@ const SearchBar = () => {
       <div class="input-wrapper">
         <div class="fa fa-search"></div>
         <input type="text" placeholder="Search" />
+        
       </div>
     )
   }
