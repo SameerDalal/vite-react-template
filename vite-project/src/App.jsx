@@ -3,7 +3,7 @@ import TempusProfile from './components/tempusProfile/TempusProfile';
 import TempusSearch from './components/tempusSearch/TempusSearch';
 import Navbar from './components/tempusHome/navbar/Navbar';
 import Footer from './components/tempusHome/footer/Footer';
-
+import TempusContent from './components/tempusContent/TempusContent';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import React from 'react';
@@ -19,7 +19,7 @@ const App = () => {
             <Route path="/" element={<TempusHome />} />
             <Route path="/profile" element={<TempusProfile />} />
             <Route path="/search" element={<TempusSearch />} />
-            <Route path="/courses" element={<TempusHome />} />
+            <Route path="/courses" element={<TempusContent />} />
             <Route path="/courses/math" element={<TempusHome />} />
           
         </Routes>
