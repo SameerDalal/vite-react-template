@@ -1,4 +1,3 @@
-
 import TempusProfile from './components/tempusProfile/TempusProfile';
 import TempusSearch from './components/tempusSearch/TempusSearch';
 import Navbar from './components/tempusHome/navbar/Navbar';
