@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Page1Export />} />
+            <Route path="/page1" element={<Page1Export />} />
             <Route path="/page2" element={<Page2Export />} />
             <Route path="/page3" element={<Page3Export />} />
             <Route path="/page4" element={<Page4Export />} />
